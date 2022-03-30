@@ -11,7 +11,7 @@ app.use(express.json());
 const port = 3333;
 
 app.listen(port, () => {
-  console.log('server has started on port ${port}');
+  console.log(`server has started on port ${port}`);
 });
 
 app.use((error, req, res, next) => {

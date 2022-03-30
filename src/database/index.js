@@ -14,7 +14,8 @@ connection.connect((err) => {
 
   console.log(`connected as id ${connection.threadId}`);
 });
-exports.query = async (query, callback) => {
-  const result = await connection.query(query, callback);
+exports.query = (query, callback) => {
+  const result = connection.query(query, callback);
+
   return result.on('result');
 };
