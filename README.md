@@ -1,7 +1,7 @@
 # sge-desafio
 ## :warning: Não concluído ainda
 
-## instalar dependenciar
+## instalar dependências
 ```
 yarn
 ```
